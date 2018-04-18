@@ -1,0 +1,7 @@
+
+The current state of development , is to write a C based json parser that generates a tree of struct-N nodes
+
+where a StrBuf struct and functions iare invented as string buffer
+and a JsonPrsr struct and functions are invented as the Json parser
+
+memory management is an issue with C, and considerations are taken in the JsonPrsr for StrBuf.
